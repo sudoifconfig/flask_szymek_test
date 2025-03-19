@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: yellow;
+            padding: 10px;
+            margin: 0 auto;
+            width: 80%;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ user_image }}" alt="User Image">
+    <h1> Kolega Szymek Kocha A-ware <3 </h1>
+    
+    <table>
+        <caption>Ulubione kiełbaski Szymona</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nazwa kiełbaski</th>
+                <th>Cena</th>
+                <th>Link do strony</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Kiełbasa śląska</td>
+                <td>15,99 zł</td>
+                <td><a href="https://przykład.pl/kielbasa-slaska">Szczegóły</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Krakowska sucha</td>
+                <td>22,50 zł</td>
+                <td><a href="https://przykład.pl/krakowska-sucha">Szczegóły</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Podwawelska</td>
+                <td>18,99 zł</td>
+                <td><a href="https://przykład.pl/podwawelska">Szczegóły</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kiełbasa biała</td>
+                <td>12,99 zł</td>
+                <td><a href="https://przykład.pl/kielbasa-biala">Szczegóły</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
